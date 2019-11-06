@@ -1,0 +1,63 @@
+
+
+
+C:\Users\Pc32>cd\
+
+C:\>cd teste
+
+C:\teste>dir
+ O volume na unidade C não tem nome.
+ O Número de Série do Volume é CEAF-4AF8
+
+ Pasta de C:\teste
+
+06/11/2019  15:19    <DIR>          .
+06/11/2019  15:19    <DIR>          ..
+06/11/2019  15:08               480 .gitignore.txt
+06/11/2019  15:19               344 distancia.c
+               2 arquivo(s)            824 bytes
+               2 pasta(s)   392.283.013.120 bytes disponíveis
+//-------------------------------------------------------------
+C:\teste>git init
+Initialized empty Git repository in C:/teste/.git/
+
+C:\teste>git config --global user.name "Coldzeca"
+
+C:\teste>git config --global user.email "jczeca15@gmail.com"
+
+C:\teste>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore.txt
+        distancia.c
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\teste>git add .
+
+C:\teste>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore.txt
+        new file:   distancia.c
+
+
+C:\teste>git commit -m "função que calcula distancia"
+[master (root-commit) 9f10442] função que calcula distancia
+ 2 files changed, 69 insertions(+)
+ create mode 100644 .gitignore.txt
+ create mode 100644 distancia.c
+
+C:\teste>git status
+On branch master
+nothing to commit, working tree clean
+
+C:\teste>
