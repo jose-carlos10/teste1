@@ -120,3 +120,15 @@ C:\teste>git log --oneline
 295b8ae (HEAD -> master) definicao das variaveis
 9d5eb13 salvando o codigo prompt git
 9f10442 fun<C3><A7><C3><A3>o que calcula distancia
+===============================================
+remove
+C:\teste>git reset --hard head~1
+==============================================
+acesso remoto
+
+C:\teste>git remote add origin https://github.com/jose-carlos10/teste1.git
+
+==============================================
+C:\teste>git push -u origin master
+Username for 'https://github.com': jose-carlos10
+Password for 'https://jose-carlos10@github.com':
