@@ -23,10 +23,8 @@ int main()
 	printf("Informe as cordenadas do segundo  ponto             ");
 	scanf("%i %i", &x2,&y2);
 	
-	//calculo da distancia
+	//calculo da distancia	//mostra o rsultado
 	distancia = calculaDistancia(x1,y1,x2,y2);	
-	
-	//mostra o rsultado
 	printf("Distancia : %f", distancia);
 	
 	return 0;
